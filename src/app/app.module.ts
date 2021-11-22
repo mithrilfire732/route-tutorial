@@ -8,6 +8,9 @@ import { HomeComponent } from './userapps/home/home.component';
 import { AboutComponent } from './userapps/about/about.component';
 import { HelpComponent } from './userapps/help/help.component';
 import { E404Component } from './userapps/e404/e404.component';
+import { DisplayBooleanPipe } from './display-boolean.pipe';
+import { SortPipe } from './sort.pipe';
+import { SearchPipe } from './search.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { E404Component } from './userapps/e404/e404.component';
     HomeComponent,
     AboutComponent,
     HelpComponent,
-    E404Component
+    E404Component,
+    DisplayBooleanPipe,
+    SortPipe,
+    SearchPipe
   ],
   imports: [
     BrowserModule,
